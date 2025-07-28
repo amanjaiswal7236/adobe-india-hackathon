@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Adobe-Hackathon-Banner](media/banner.png)
+
 This solution extracts the **document title** and a **hierarchical outline of headings** (H1, H2, H3) from PDF files up to 50 pages. It processes all PDFs placed in the input directory and writes corresponding JSON outlines to the output directory.
 
 ---
@@ -73,3 +75,9 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 * [`pdfminer.six`](https://pdfminersix.readthedocs.io/) — Precise PDF layout and text extraction.
 * [`scikit-learn`](https://scikit-learn.org/stable/) — Provides DBSCAN clustering for heading grouping.
 * [`numpy`](https://numpy.org/) — Efficient numerical operations for clustering input preparation.
+
+
+## Team Members
+- [Aman Jaiswal](https://github.com/amanjaiswal7236)
+- [Siddhid Sambrut Dani](https://github.com/siddhid1)
+- [Soubhik Kumar Gon](https://github.com/zakhaev26)
