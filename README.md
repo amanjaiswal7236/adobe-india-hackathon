@@ -73,11 +73,3 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 * [`pdfminer.six`](https://pdfminersix.readthedocs.io/) — Precise PDF layout and text extraction.
 * [`scikit-learn`](https://scikit-learn.org/stable/) — Provides DBSCAN clustering for heading grouping.
 * [`numpy`](https://numpy.org/) — Efficient numerical operations for clustering input preparation.
-
----
-
-If you have any questions or feedback, feel free to reach out.
-
----
-
-Would you like me to help draft the README for Round 1B as well?
